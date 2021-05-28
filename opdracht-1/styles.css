@@ -57,8 +57,9 @@ input[type="submit"] {
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-input[type=text]:focus {
-    border: 1px blue;
+input:focus {
+    border: 1px solid blue;
+    outline: none;
 }
 
 
