@@ -3,6 +3,10 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+* {
+    box-sizing: border-box;
+}
+
 .one {
     display: flex;
     flex-direction: column;
@@ -18,10 +22,41 @@
 .three {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
-u {
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.three-child {
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.five {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.five-article {
+    flex-basis: 400px;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
